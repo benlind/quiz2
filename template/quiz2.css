@@ -1,7 +1,12 @@
-html body {
-	font-family: 'Helvetica', Arial, sans-serif;
-	color: #111
-	background: #E7E7E7;
+html, body {
+	font-family: 'Open Sans', 'Helvetica', Arial, sans-serif;
+	color: #dee8ed;
+	background: #354046;
+}
+
+body {
+	margin: auto;
+	width: 600px;
 }
 
 a {
@@ -17,18 +22,52 @@ a {
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 20px 0;
+}
 
-
-content form {
+.content form {
 	padding: 10px;
 	width: 300px;
 	margin: 0 auto;
 }
 
-.content form input {
+input, button {
 	width: 100%;
-	// border: 2px solid #107394;
+	border: 1px solid #31444E;
+	box-shadow: 0 3px 10px rgba(0, 0, 0, 0.33);
 	color: #107394;
-	background: transparent;
-	magrin-bottom: 15px;
+	background: white;
+	margin-bottom: 15px;
+	padding: 10px 15px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+button {
+	display: inline;
+	width: auto;
+}
+
+label {
+	display: block;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.events > div > span {
+	font-style: italic;
+}
+
+.content .timeout {
+	display: none;
+}
+
+.events > div {
+	background: #3e6479;
+	margin: 10px 0;
+	padding: 20px;
+}
+
+strong {
+	color: #1ea5f0;
 }
